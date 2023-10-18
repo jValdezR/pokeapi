@@ -20,6 +20,8 @@ export class SeedService {
         no
       }
     });
+
+    return data.results;
   }
 
 }
