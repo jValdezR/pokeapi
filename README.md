@@ -17,6 +17,10 @@ npm i -g @nest/cli
 ```
 docker-compose up -d
 ```
+5. Reconstruir la db
+```
+localhost:3000/seed/
+```
 
 ## Stack usado
 * MongoDB
