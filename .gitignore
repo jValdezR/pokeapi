@@ -1,5 +1,9 @@
 # custom folders
 /mongo
+
+# custom files
+.env
+
 # compiled output
 /dist
 /node_modules
