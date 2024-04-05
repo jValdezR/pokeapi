@@ -30,6 +30,13 @@ npm run start
 localhost:3000/seed/
 ```
 
+# Production Build
+1. Crear el archivo ```.env.prod```
+2. Llenar las variables de entordo de prod
+3. Crear la nueva imagen
+```
+docker-compose -f docker-compose.prod.yaml --env-file .env.prod up --build```
 ## Stack usado
 * MongoDB
 * Nest# pokeapi
+# pokeapi-nest
